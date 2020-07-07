@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
+    <link href="format.css" rel="stylesheet" type="text/css">
+    <section id="styleHolder"></section>
+</head>
+<body>
+    <div id="inputSection">
+        <h1> Meme Generator</h1>
+        <h2>Generate your meme below:</h2>
+        <form>
+            <p><label for="topText" maxlength = "54">Top Text: </label><input type="text" name="topText" size="100" id="topText" placeholder="Type top text here"></p>
+            <p><label for="bottomText" maxlength = "54"  >Bottom Text: </label><input type="text" name="bottomText" size="96" id="bottomText" placeholder="Type bottom text here"></p>
+            <p><label for="Image">Image:       </label><input type="text" name="image" id="image" placeholder="Paste link here" size="102"></p>
+            <p><label for="textColor">Select Text Color: </label><input type="color" id="textColor" value="#00FF55"></p>
+            <button id="classicModeInactive" value="classicMode">Create Classic Memes</button><button id="modernModeInactive" value="modernMode">Create Modern Meme</button>
+        </form>
+    </div>
+    <div id="memePlacement"></div>
+    <script src="meme.js"></script>
+</body>
+</html>

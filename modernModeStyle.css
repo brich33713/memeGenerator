@@ -1,0 +1,50 @@
+.topText {
+    position: absolute;
+    top: 0px;  
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    padding: 3px;
+    width: 300px;
+    z-index: 1;  
+}
+
+.memeContainer {
+    width: 30%;
+    float: left;
+    margin: 15px;
+    height: 500px;
+    position: relative;
+    margin-top: 25px;
+    
+}
+
+.memeImage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 300px;  
+    border: 10px solid black;
+    padding: 3px;
+    z-index: 0;
+}
+
+.bottomText {
+    position: absolute;
+    top: 225px;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    padding: 3px;
+}
+
+.removeButton {
+    position: relative;
+    top: 500px;
+}
+
+.text {
+    font-family: 'Notable', sans-serif;
+    width: 300px;
+    text-align: justify;
+    word-wrap: break-word;
+}

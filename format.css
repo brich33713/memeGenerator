@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 10rem;
+    margin-top: 0;
+}
+
+
+
+label {
+    font-weight: bold;
+}
+
+button {
+    margin: 25px;
+    border-radius: 15px;
+}
+
+#inputSection {
+    background-color: silver;
+}
+
